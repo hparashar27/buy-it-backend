@@ -18,7 +18,7 @@ const createPaymentLink = async (orderId) => {
                 sms: true,
             },
             reminder_enable: true,
-            callback_url: `http://localhost:3000/payment/${orderId}`,
+            callback_url: `https://buy-it-tawny.vercel.app/payment/${orderId}`,
             callback_method: 'get'
         };
 
